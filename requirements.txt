@@ -1,0 +1,11 @@
+pytorch
+matplotlib
+tqdm
+yacs
+Pillow
+tensorboardx
+dill
+wandb
+scikit-learn
+opencv-python
+coloredlogs
