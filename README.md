@@ -21,4 +21,3 @@ python tools/train.py --config_file configs/gtppo_tr_JAAD.yml
 python tools/test.py --config_file configs/gtppo_tr_JAAD.yml --CKPT_DIR your_weights.pth
 ```
 5. if set VISUALIZATION: True and USE_WANDB: True in configs/gtppo_tr_JAAD.yml, the results will be visualized. ffmpeg and full dataset videos are required for visualization.
-```bash
