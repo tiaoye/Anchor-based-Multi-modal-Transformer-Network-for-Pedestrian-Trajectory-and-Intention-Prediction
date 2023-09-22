@@ -19,9 +19,9 @@ from .tr_utils import DataEmbedding
 from .tr_utils import gen_sineembed_for_position, build_mlps
 from .tr_utils import batch_nms
 
-class GTPPOTR_SETPRED(nn.Module):
+class GTPPOTR(nn.Module):
     def __init__(self, cfg, dataset_name=None):
-        super(GTPPOTR_SETPRED, self).__init__()
+        super(GTPPOTR, self).__init__()
         self.cfg = copy.deepcopy(cfg)
 
         enc_in = dec_in = cfg.GLOBAL_INPUT_DIM
