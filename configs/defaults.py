@@ -26,7 +26,7 @@ _C.MODEL.LOCAL_INPUT_DIM = 50
 _C.MODEL.DEC_OUTPUT_DIM = 4
 _C.MODEL.DEC_INPUT_SIZE = 512 # the actual input size to the decoder GRU, it's the concatenation of all separate inputs
 _C.MODEL.dt = 0.4
-
+_C.MODEL.PRED_INTENTION = True
 # ----- FOL -----
 _C.MODEL.WITH_FLOW = False # whether use flow in the model
 _C.MODEL.IMG_SIZE = (256,256)
