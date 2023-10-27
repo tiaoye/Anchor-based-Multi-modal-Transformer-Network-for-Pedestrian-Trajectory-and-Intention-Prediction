@@ -41,8 +41,8 @@ _C.MODEL.DROPOUT = 0.0
 _C.MODEL.PRIOR_DROPOUT = 0.0
 
 # ------ GOAL -----
-_C.MODEL.PRED_INTENTION: False # new add for gtppo, whether to output a crossing intention prob.
-_C.MODEL.ENC_WITH_ATTENTION: False # new add for gtppo, whether to use attention in encoder
+_C.MODEL.PRED_INTENTION = False # new add for gtppo, whether to output a crossing intention prob.
+_C.MODEL.ENC_WITH_ATTENTION = False # new add for gtppo, whether to use attention in encoder
 
 _C.MODEL.BEST_OF_MANY = False
 _C.MODEL.K = 20
